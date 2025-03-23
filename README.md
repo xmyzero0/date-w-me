@@ -12,6 +12,7 @@ A beautiful, interactive Valentine's Day website generator to ask your special s
 ## 🌟 Share The Love
 
 Help others find this project:
+- 🔥 Follow on instagram for more websites or share other ideas : [Instagram](https://www.instagram.com/ai_cute_apps/)
 - ⭐ Star this repository if you like it
 - 🔄 Fork it to create your own version
 - 📢 Share on your social media
