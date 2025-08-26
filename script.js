@@ -49,6 +49,7 @@ function getDefaultColor(key) {
     };
     return defaults[key];
 }
+
 // Set page title
 document.title = config.pageTitle;
 
@@ -178,10 +179,15 @@ function celebrate() {
     const celebration = document.getElementById('celebration');
     celebration.classList.remove('hidden');
     
+    // Set celebration messages
+    document.getElementById('celebrationTitle').textContent = config.celebration.title;
+    document.getElementById('celebrationMessage').textContent = config.celebration.message;
+    document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
     
     // Create heart explosion effect
     createHeartExplosion();
 }
+
 // Create heart explosion animation
 function createHeartExplosion() {
     for (let i = 0; i < 50; i++) {
