@@ -49,7 +49,6 @@ function getDefaultColor(key) {
     };
     return defaults[key];
 }
-
 // Set page title
 document.title = config.pageTitle;
 
@@ -179,13 +178,20 @@ function celebrate() {
     const celebration = document.getElementById('celebration');
     celebration.classList.remove('hidden');
     
-    // Set celebration messages
-    document.getElementById('celebrationTitle').textContent = config.celebration.title;
-    document.getElementById('celebrationMessage').textContent = config.celebration.message;
-    document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
     
     // Create heart explosion effect
     createHeartExplosion();
+}
+// Create heart explosion animation
+function createHeartExplosion() {
+    for (let i = 0; i < 50; i++) {
+        const heart = document.createElement('div');
+        const randomHeart = config.floatingEmojis.hearts[Math.floor(Math.random() * config.floatingEmojis.hearts.length)];
+        heart.innerHTML = randomHeart;
+        heart.className = 'heart';
+        document.querySelector('.floating-elements').appendChild(heart);
+        setRandomPosition(heart);
+    }
 }
 
 // Music Player Setup
