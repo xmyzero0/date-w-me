@@ -87,7 +87,7 @@ Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
 valentineName: "El"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+pageTitle: "HAPPY BIRTHDAY 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
@@ -109,7 +109,7 @@ questions: {
         nextBtn: "Next ❤️"                         // Next button text
     },
     third: {
-        text: "Will you be my Valentine...?",      // Final question
+        text: "Will you have a birthday date with me...?",      // Final question
         yesBtn: "Yes!",                            // Yes button text
         noBtn: "No"                                // No button text
     }
