@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "HAPPY BIRTHDAY 💝",
+    pageTitle: "HAPPY BIRTHDAY PRINCESS KOOOOO",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,10 +22,10 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: "Do you... like me? ><",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I LOVE youuuuu"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -42,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "MUHEHEHEHEHE YESSS BE GREEDYYY :3 🥰",  // Shows when they go past 5000%
+        high: "YOU MAKE ME KICKLE HEHE 😳💝",              // Shows when they go past 1000%
+        normal: "WEALLYYY?! "                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "I wanted to say Happiest Birthday to you. Elara you make me the happiest and the LUCKIEST woman in the world. this may be cheesy but the dorkyness inside of me wanted to do it for you. You are finally 20 wowowow the big TWO at the start ur age. I am so proud of how far you've come and grown as a person and every day I will be cheering you on the side. 🎉💝💖💝💓",
-        message: "I love you so much the greates love of my every life and universe ====================================================================================================",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "I wanted to say Happiest Birthday to you. Elara, you make me the happiest and the LUCKIEST woman in the world. This may be cheesy but the dorkyness inside of me wanted to do it for you. You are finally 20 wowowow the big TWO at the start ur age. I am so proud of how far you've come and grown as a person and every day I will be cheering you on the side. More birthdays to come and celebrate with you!!🎉💝💖💝💓",
+        message: "I love you so much the greatest love of my every life and universe ===============",
+        emojis: "💖💕🌷☀️😽"  // These will bounce around
     },
 
     // Color scheme for the website
