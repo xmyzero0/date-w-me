@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "This is a shortened version of what I wanna say to you, the rest will be in the letter :3 anyway, I wanted to say Happiest Birthday to you. Elara, you make me the happiest and the LUCKIEST woman in the world. This may be cheesy but the dorkyness inside of me wanted to do it for you. You are finally 20 wowowow the big TWO at the start ur age. I am so proud of how far you've come and grown as a person and every day I will be cheering you on the side. More birthdays to come and celebrate with you!!🎉💝💖💝💓",
-        message: "I love you so much the greatest love of my every life and universe ===============",
+        message: "I love you so much the greatest love of my every life and universe!! <3",
         emojis: "💖💕🌷☀️😽"  // These will bounce around
     },
 
